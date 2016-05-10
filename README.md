@@ -20,7 +20,9 @@ The vector structure is as follows:
 
 Using the mongo aggregation framework the system calculates the best champion for the role and composition that were entered as parameter. 
 
-The performance rate is calculated using compositions that are at least 50% similar to the parameters. For instance, if you input 4 champs the similar compositions have atleast 2 champs in the same position as the parameters. 
+The performance rate is calculated using compositions that are at least 50% similar to the parameters. For instance, if you input 4 champs the similar compositions have atleast 2 champs in the same position as the parameters. }
+
+The performance rate is the probability to win of the champ in the given conditions  X The mastery lvl of that champ
 
 You can see the dataset used for this project here: 
 
