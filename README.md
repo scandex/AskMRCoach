@@ -7,6 +7,18 @@ AskMrCoach is a recommender system that allows the user to insert a state of the
 a live version of the application can be found here:
 https://askmrcoach.herokuapp.com
 
+Bugs detected (fixed in askmrcoach2):
+- Divide by 0 in function with a wrong =+
+
+improvements on askmrcoach2
+- bad looking visuals
+- all supported regions regions added
+- works with any summoner from the supported regions
+
+
+A live version of the most recent application can be found here:
+https://askmrcoach2.herokuapp.com
+
 ##How to use
 Select the champions and roles of your teammates or enemies and put the poro in your preferred rol and the click the Recommend Button
 
