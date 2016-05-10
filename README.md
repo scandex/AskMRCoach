@@ -1,24 +1,25 @@
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
 
+# AskMrCoach
 
-Welcome to your Rails project on Cloud9 IDE!
+AskMrCoach is a recommender system that allows the user to insert a state of the champion select fase to obtain a recommended champion for that situation. The system will recommend 10 champs, 5 influenced by the mastery of the summoner with that champion and other 5 that will be good in that team comp without caring  about the skill of the user with that champion.
 
-To get started, just do the following:
+a live version of the application can be found here:
+https://askmrcoach.herokuapp.com
 
-1. Run the project with the "Run Project" button in the menu bar on top of the IDE.
-2. Preview your new app by clicking on the URL that appears in the Run panel below (https://askmmcoach-scandex.c9users.io/).
+##How to use
+Select the champions and roles of your teanmates or enemies and put the poro in your preferred rol 
+##How the system works
 
-Happy coding!
-The Cloud9 IDE team
+##Tech specs
 
+##Future work
+In the current state, the project has some notable bugs and problems listed below:
+-Poor UI for the recommended champs and unclear performance rate
+-Only works with my mastery champs (scandex LAN) the textbox and dropdown for the region are useless
+-The dataset is really small so there are some weird recommendations (like azir adc)
 
-## Support & Documentation
+To improve the project without affecting the application to the RIOT API Challenge the application will be in development in a different repo: https://github.com/scandex/askmrcoach2
 
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+A live version of the most recent application can be found here:
+https://askmrcoach2.herokuapp.com
