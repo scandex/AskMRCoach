@@ -8,8 +8,13 @@ a live version of the application can be found here:
 https://askmrcoach.herokuapp.com
 
 ##How to use
-Select the champions and roles of your teanmates or enemies and put the poro in your preferred rol 
+Select the champions and roles of your teammates or enemies and put the poro in your preferred rol and the click the Recommend Button
+
+
 ##How the system works
+
+###Public database acces: 
+mongodb://askmrcoach:askmrcoach1@ds023388.mlab.com:23388/ritochallenge
 
 ##Tech specs
 
