@@ -12,11 +12,26 @@ Select the champions and roles of your teammates or enemies and put the poro in 
 
 
 ##How the system works
+The system is based on the similarity between the composition of champions in the distinct games. 
+To do this, the distinct compositions are represented like vectors on the database.
+The vector structure is as follows:
+
+[id_blue_top_champ ,id_blue_jg_champ, id_blue_mid_champ, id_blue_adc_champ, id_blue_supp_champ, id_red_top_champ ,id_red_jg_champ, id_red_mid_champ, id_red_adc_champ, id_red_supp_champ, wins_blue, wins_red]
+
+Using the mongo aggregation framework the system calculates the best champion for the role and composition that were entered as parameter. 
+
+The performance rate is calculated using compositions that are at least 50% similar to the parameters. For instance, if you input 4 champs the similar compositions have atleast 2 champs in the same position as the parameters. 
+
+You can see the dataset used for this project here: 
 
 ###Public database acces: 
 mongodb://askmrcoach:askmrcoach1@ds023388.mlab.com:23388/ritochallenge
 
 ##Tech specs
+ETL: java with Orianna lib to access Riot API
+Database:
+Data processing: Mongo Aggregate framework
+FrontEnd: Ruby on Rails with taric gem to access Riot API
 
 ##Future work
 In the current state, the project has some notable bugs and problems listed below:
