@@ -30,6 +30,9 @@ The vector structure is as follows:
 
 [id_blue_top_champ ,id_blue_jg_champ, id_blue_mid_champ, id_blue_adc_champ, id_blue_supp_champ, id_red_top_champ ,id_red_jg_champ, id_red_mid_champ, id_red_adc_champ, id_red_supp_champ, wins_blue, wins_red]
 
+mapped to mongo fields:
+[tb,jb,mb,ab,sb,tr,jr,mr,ar,sr,wb,wr]
+
 Using the mongo aggregation framework the system calculates the best champion for the role and composition that were entered as parameter. 
 
 The performance rate is calculated using compositions that are at least 50% similar to the parameters. For instance, if you input 4 champs the similar compositions have atleast 2 champs in the same position as the parameters. }
